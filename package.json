@@ -1,0 +1,20 @@
+{
+  "name": "mockdata",
+  "version": "1.0.0",
+  "description": "Some Json data for testing",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "tsx": "^4.16.0"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  }
+}
